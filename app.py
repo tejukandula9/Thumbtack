@@ -117,4 +117,4 @@ def toggle_alert_update(factors, depth, is_open):
     return is_open
 
 if __name__ == '__main__':
-    app.run_server()
+    app.run_server(debug=True)
