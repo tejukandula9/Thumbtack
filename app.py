@@ -1,4 +1,4 @@
-from Model import *
+from model import *
 from plotly.tools import mpl_to_plotly
 import dash
 from dash import dcc
