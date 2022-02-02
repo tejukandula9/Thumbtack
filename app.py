@@ -45,8 +45,7 @@ app.layout = html.Div(children=[
                 {'label': u'Rating', 'value': 'Rating given'},
                 {'label': 'Cost Estimate', 'value': 'Estimated Cost of work'},
                 {'label': 'Result Position', 'value': 'Result on Search Table'},
-                {'label': 'Service page viewed?', 'value': 'If service page was seen'},
-                {'label': 'Hired', 'value': 'Hired'}
+                {'label': 'Service page viewed?', 'value': 'If service page was seen'}
             ],
             value=['Cleaning', 'Rating Given', 'Estimated Cost of work', 'Result on Search Table', 
             'If service page was seen', 'Hired']
