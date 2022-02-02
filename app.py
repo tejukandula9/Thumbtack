@@ -11,9 +11,6 @@ import dash_bootstrap_components as dbc
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
-
-def get_factors_list(factors):
-    return factors
   
 app.layout = html.Div(children=[
     dbc.Alert(
@@ -82,7 +79,6 @@ app.layout = html.Div(children=[
 def update_figure(factors, depth):
     # Output Tree Diagram
     buf = io.BytesIO() # in-memory files
-    factors = get_factors_list(factors)
     model_info = create_model(factors, depth)
     dtree = model_info[0]
     cols = model_info[1]
